@@ -17,6 +17,7 @@ module.exports = {
     fontFamily: {
       'domaine': ['Domaine Display'],
       'josefin-sans': ['Josefin Sans'],
+      'roboto': ['Roboto'],
     },  
   },
   plugins: [],
