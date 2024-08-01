@@ -1,0 +1,32 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-dot-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.custom-dot-list button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.custom-dot-list button.active {
+  background-color: #555;
+}
