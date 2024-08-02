@@ -44,6 +44,8 @@ function Card() {
       <Isi/> 
       <Isi/> 
       <Isi/> 
+      <Isi/> 
+      <Isi/> 
         
       
       </Carousel>

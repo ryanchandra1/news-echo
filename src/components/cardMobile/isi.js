@@ -1,11 +1,11 @@
 import React from "react";
-import Image from "../../../elements/img";
+import Image from "../../elements/img";
 
 function Isi() {
   return (
     <div>
       <button className="w-full h-full mobile:max-w-[152px] mobile:max-h-[250px] sm:max-w-[200px] sm:max-h-[450px] my-[10px] justify-center items-center mx-[100px] relative">
-        <div className="w-full h-full border border-gray-300 rounded-lg shadow-md flex flex-col hover:border-gray-600" >
+        <div className="w-full h-full border border-gray-300 rounded-lg shadow-md flex flex-col hover:border-gray-600">
           <div className="GAMBAR flex justify-center items-center">
             <Image
               src="assets/img/laptop-gambar.svg"
@@ -33,10 +33,10 @@ function Isi() {
                 className="mobile:w-[22px] mobile:h-[20px] sm:w-[30px] sm:h-[28px] mr-[5px] ml-[10px] rounded-md"
               />
               <div className="flex flex-col">
-                <text className="font-domaine font-semibold mobile:text-[9px] sm:text-[11px]">
+                <text className="font-roboto font-semibold mobile:text-[9px] sm:text-[11px]">
                   James Cordon
                 </text>
-                <text className="font-josefin-sans font-light mobile:text-[5px] sm:text-[7px]">
+                <text className="font-roboto font-light mobile:text-[5px] sm:text-[7px]">
                   8 Desember 2024
                 </text>
               </div>

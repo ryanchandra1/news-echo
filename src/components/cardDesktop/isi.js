@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../../elements/img";
+import Image from "../../elements/img";
 
 function Card({ title, text, srcImage, altImage }) {
   return (
@@ -25,7 +25,7 @@ function Card({ title, text, srcImage, altImage }) {
           />
 
           <div className="flex flex-col pl-[10px]">
-            <h2 className="font-domaine text-[14px] font-bold">
+            <h2 className="font-roboto text-[14px] font-semibold">
               Louise Hoebregts
             </h2>
             <span>12 Juni 2024</span>

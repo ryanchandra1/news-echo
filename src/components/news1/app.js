@@ -1,13 +1,12 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 import Img from "../../elements/img";
-import CardDesktop from "./cardDesktop";
-import CardMobile from "./cardMobile"
+import CardDesktop from "../cardDesktop";
+import CardMobile from "../cardMobile";
 import Button from "./repeat/buttonCardBawah";
 import Button2 from "./repeat/buttonCardBawahKanan";
 import PTDesktop from "./repeat/popularTopicDesktop";
 import PTMobile from "./repeat/popularTopicMobile";
-
 
 function App() {
   const isMobile = useMediaQuery({ maxWidth: 1023 });
